@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
+  <title>True AB Glass Services</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="./index.html">T.AB.G.S.</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+  <h2 class="text-center">Contact Us</h2>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col text-center">
+        <p>To inquire about a project you can email us at <a
+            href="mailto:trueabglassservices@protonmail.com">trueabglassservices@protonmail.com</a>, call us at <a
+            href="tel:15877771799">1-587-777-1799</a>, or fill out the form below and we will contact you shortly</p>
+        <p></p>
+      </div>
+    </div>
+    <form id="contact">
+      <div class="row">
+        <div class="col-sm text-left">
+          <div class="form-floating">
+            <input class="form-control" type="text" id="name">
+            <label for="name" class="infoLabel">Name:</label>
+          </div>
+        </div>
+
+        <div class="col-sm text-left">
+          <div class="form-floating">
+            <input class="form-control" type="text" id="phone">
+            <label for="phone" class="infoLabel">Phone:</label>
+          </div>
+
+        </div>
+        <div class="col-sm text-left">
+          <div class="form-floating">
+            <input class="form-control" type="text" id="email">
+            <label for="email" class="infoLabel">Email:</label>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row mt-5">
+        <div class="col-sm text-center">
+          <div class="form-floating">
+            <textarea class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
+            <label for="description">How may we help you?</label>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col text-center">
+          <button id="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+
+
+  </div>
+  <script src="./vendor/js/bootstrap.bundle.min.js"></script>
+  <script src="./vendor/js/axios.min.js"></script>
+  <script src="./vendor/js/validator.min.js"></script>
+  <script src="./vendor/js/purify.min.js"></script>
+  <script src="./js/timestamp.js"></script>
+</body>
+
+</html>
