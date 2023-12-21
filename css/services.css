@@ -1,26 +1,8 @@
-#glassShower {
-  max-width: 300px;
-}
 
-#resWindow {
-  max-width: 400px;
-}
-
-#caulking {
-  max-width: 400px;
-}
-
-#glassDoor {
-  max-width: 300px;
-}
-
-#glassRailing {
-  max-width: 300px;
-}
-
-#questionMark {
-  max-width: 300px;
-}
 * {
   overflow-x: hidden;
+}
+#servicesList {
+  max-width: 600px;
+  margin: auto;
 }
